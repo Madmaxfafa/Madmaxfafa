@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+
+                <link rel="stylesheet" href="advanced.css">
+                <link rel="stylesheet" href="nav-estilo.css"> </link>
+                <title>Pesquisa Avançada</title>
+         </head>
+
+         <body>
+                  <nav>
+                        <button class="button">Fazer login</button>
+                        <a href="index.html">Google Search</a>
+                        <a href="imagens.html">Imagens</a>
+                        
+                        
+     
+                 </nav>                            
+         <div class="container">
+        <h4>Pesquisa Avançada</h4>
+        <hr>
+        <form action="https://www.google.com/search">
+        <div class="grid">
+            <div class="grid-item main-header">
+                    <h5>Localizar páginas com...</h5>
+            </div>
+            <div class="grid-item main-header-2">
+                <h5 class="second-label"> Fazer isso na caixa de pesquisa. </h5>
+            </div>
+
+
+            <div class="grid-item">
+                <label for="">
+                    todas estas palavras:
+                </label>
+            </div>
+            <div class="grid-item">
+                <input type="text" name="as_q" class="inp">
+            </div>
+            <div class="grid-item second-label">
+                Digite as palavras importantes: rat terrier tricolor
+            </div>
+
+
+            <div class="grid-item">
+                <label for="">
+                    esta expressão ou frase exata:
+                </label>
+            </div>
+            <div class="grid-item">
+                <input type="text" class="inp" name="as_epq">
+            </div>
+            <div class="grid-item second-label">
+                Coloque palavras exatas entre aspas: "rat terrier"
+
+            </div>
+
+
+            <div class="grid-item">
+                <label for="">any of these words:</label>
+            </div>
+            <div class="grid-item">
+                <input type="text" class="inp" name="as_oq">
+            </div>
+            <div class="grid-item second-label">
+                Digite OR entre todas as palavras que você procura: miniatura OR padrão
+
+            </div>
+
+
+            <div class="grid-item">
+                <label for="">none of these words:</label>
+            </div>
+            <div class="grid-item">
+                <input type="text" class="inp" name="as_eq">
+            </div>
+            <div class="grid-item second-label">
+                Coloque um sinal de menos antes das palavras que você não quer: -roedor, -"Jack Russell"
+
+            </div>
+
+
+            <div class="grid-item">
+                <label for="">
+                    números que variam de:
+                </label>
+            </div>
+            <div class="grid-item">
+                <input type="text" class="num-inp" name="as_nlo">
+                <span>a</span>
+                <input type="text" class="num-inp" name="as_nhi">
+            </div>
+            <div class="grid-item second-label">
+                Coloque 2 pontos finais entre os números e adicione uma unidade de medida: 10..35 lb, US$ 300..US$ 500, 2010..2011
+            </div>
+           
+        <button type="submit">Pesquisa Avançada</button>
+        </form>
+    </div>
+</body>
+</html>

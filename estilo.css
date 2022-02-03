@@ -1,0 +1,60 @@
+.conteiner{
+    text-align: center;
+    margin: top 250px;
+}
+
+.google-img{
+    padding-top: 200px;
+    padding-bottom :50px;
+      
+}
+
+.search{
+    width:640px;
+    margin: 0 auto;
+    border:1px solid lightgray;
+    border-radius: 30px;
+    margin: auto;
+    
+}
+
+
+.search-bar{
+    position: relative;
+    width: 550px;
+    padding-top:20px; 
+    font-size:18px;
+    border:none;
+    outline:none;
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-bottom:10px;
+}
+
+
+.lupa-icon{
+    position: relative;
+    height: 20px;
+    margin-top:10px;
+    width: 20px;
+    border: medium;
+    border-radius: 30px;
+    padding-left: 5px;
+}
+
+.btn-conteiner {
+        padding-right: 10px;
+        padding-left: 10px;
+
+        position: relative;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 16px
+
+     
+}
+ 
+
+
